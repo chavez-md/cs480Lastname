@@ -14,4 +14,8 @@ all: ../bin/Pass
 
 ../bin/Pass: ../src/main.cpp
 	$(CC) $(CXXFLAGS) ../src/main.cpp -o ../bin/Pass $(LIBS)
+	
+clean:
+	rm *.o ../bin/Pass
+	
 
