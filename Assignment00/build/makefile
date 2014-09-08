@@ -16,6 +16,6 @@ all: ../bin/Pass
 	$(CC) $(CXXFLAGS) ../src/main.cpp -o ../bin/Pass $(LIBS)
 	
 clean:
-	rm *.o ../bin/Pass
+	rm -rf *.o ../bin/Pass
 	
 
